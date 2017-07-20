@@ -26,6 +26,8 @@ SECRET_KEY = 'd&6ig)a!*pym$%=987m-si-a)5foc(3vj3&w%$1k)8zpf$-vcb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+LOGIN_REDIRECT_URL = '/'
+
 ALLOWED_HOSTS = ['*']
 
 #added for Heroku deployment
